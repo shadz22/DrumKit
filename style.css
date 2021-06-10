@@ -3,3 +3,38 @@ html {
   background: url("background.jpg");
   background-size: cover;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.key {
+  border: 0.3rem solid #ECAD00;
+  border-radius: 1rem;
+  color: white;
+  margin: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 5rem;
+  background: rgba(0,0,0,0.4);
+}
+
+kbd {
+  display: block;
+  font-size: 3rem;
+}
+
+.sound {
+  color: #F07341;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
