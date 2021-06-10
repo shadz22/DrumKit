@@ -1,12 +1,15 @@
 html {
   font-size: 12px;
-  background: url("background.jpg");
-  background-size: cover;
+  height: 100%;
+
 }
 
 body {
   margin: 0;
   padding: 0;
+  background: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .keys {
@@ -14,6 +17,7 @@ body {
   flex: 1;
   justify-content: center;
   align-items: center;
+  min-height: 60vh;
 }
 
 .key {
@@ -24,7 +28,8 @@ body {
   font-size: 1.5rem;
   text-align: center;
   width: 5rem;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.6);
+
 }
 
 kbd {
