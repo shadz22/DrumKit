@@ -21,7 +21,7 @@ body {
 }
 
 .key {
-  border: 0.3rem solid #ECAD00;
+  border: 0.4rem solid #ECA;
   border-radius: 1rem;
   color: white;
   margin: 1rem;
@@ -30,7 +30,7 @@ body {
   text-align: center;
   width: 5rem;
   background: rgba(0,0,0,0.6);
-
+  transition: all 0.5s ease;
 }
 
 kbd {
@@ -44,3 +44,8 @@ kbd {
   text-transform: uppercase;
 }
 
+.playing {
+  border: 0.5rem solid #ECAD00 ;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #ffc600;
+}
