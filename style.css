@@ -30,7 +30,7 @@ body {
   text-align: center;
   width: 5rem;
   background: rgba(0,0,0,0.6);
-  transition: all 0.5s ease;
+  transition: all 0.07s ease;
 }
 
 kbd {
