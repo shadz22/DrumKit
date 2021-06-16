@@ -1,9 +1,9 @@
 # JavaScript Keyborad Drum Kit
 
 ### Default homepage
-![](drumkit.png)
+![](img/drumkit.png)
 
 ---
 
 ### Whilst playing
-![](playing.png)
+![](img/playing.png)
